@@ -1,0 +1,70 @@
+body { 
+    font-family: "Geneva";
+    color:limegreen;
+	background-color: dimgrey; 
+}
+
+a { 
+	text-decoration: none; 
+    color: darkgrey;
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+label {
+	width: 8em;
+	display: inline-block;
+}
+
+header {
+    background-color: rgb(60, 60, 20);
+    color: white;
+    padding: 20px;
+    margin-bottom: 0.5em;
+    display: flex; /* Attiva il layout flessibile */
+    justify-content: space-between; /* Spinge gli elementi agli estremi opposti */
+    align-items: center; /* Allinea verticalmente gli elementi */
+    width: 100%;
+}
+
+header a { 
+	text-decoration: none; 
+    color: white;
+    font-size: 0.6em;
+}
+
+.logo {
+    width: 250px;
+    height: 350px;
+}
+
+.film-image {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.spettacoli-list button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.spettacoli-list button:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary.selected {
+    background-color: #28a745; /* Verde */
+    border-color: #28a745;
+    color: white;
+}
